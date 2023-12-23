@@ -116,3 +116,37 @@ label i {
     font-size: 1rem;
     font-weight: 500;
 }
+
+
+@media (max-width: 460.98px) { 
+    .table{
+        font-size: 0.65rem;
+    }
+
+    .visit{
+        width: 5rem;
+        height: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        background-color: #6fe2f6;
+        transition: all 0.3s ease-in-out;
+    }
+    .delete{
+        width: 5rem;
+        height: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        background-color: #c64013;
+        transition: all 0.3s ease-in-out;
+    }
+ }
