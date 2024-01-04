@@ -58,5 +58,6 @@ function displayBookmark (){
 // the delete function
 function deleteBookmark(index){
   website.splice(index,1)
+  localStorage.setItem("bookmarks",JSON.stringify(website))
   displayBookmark()
 }
